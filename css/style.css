@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+[class*="col-"] {
+    border: 1px solid white;
+    color: white;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+h1,
+h2 {
+    background-color: white;
+}
+
+.container {
+    margin: 1em auto;
+}
+.nested {
+    background-color:rgb(9, 216, 78);
+    margin: 5px;
+    height: 80%;
+}
+
+.nested-col {
+    height: 100%;
+    border: 1px solid rgb(8, 186, 245);
+    font-size: 0.8em;
+    line-height: 300%;
+}
