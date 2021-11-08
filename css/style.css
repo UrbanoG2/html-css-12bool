@@ -8,11 +8,14 @@
 
 [class*="col-"] {
     border: 1px solid white;
+    background-color: rgb(6, 137, 180);
     color: white;
     height: 50px;
     text-align: center;
     line-height: 50px;
 }
+
+
 
 h1,
 h2 {
@@ -23,14 +26,55 @@ h2 {
     margin: 1em auto;
 }
 .nested {
-    background-color:rgb(9, 216, 78);
     margin: 5px;
     height: 80%;
 }
 
 .nested-col {
     height: 100%;
-    border: 1px solid rgb(8, 186, 245);
+    border: 1px solid rgb(6, 137, 180);
+    background-color:rgb(9, 216, 78);
     font-size: 0.8em;
     line-height: 300%;
+}
+
+.left {
+    display: flex;
+    justify-content:  flex-start;
+}
+
+
+.center {
+    display: flex;
+    justify-content:  center;
+}
+
+
+.right {
+    display: flex;
+    justify-content:  flex-end;
+}
+
+.thick {
+    height: 100px;
+}
+
+.top {
+    align-items: flex-start;
+}
+
+.center {
+    align-items: center;
+}
+
+.bottom {
+    align-items: flex-end;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.between {
+    justify-content: space-between;
 }
